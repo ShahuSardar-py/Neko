@@ -1,0 +1,220 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: #141718;
+}
+
+.container{
+    color: whitesmoke;
+}
+
+.logo {
+    display: flex;
+    align-items: center; 
+    padding: 20px;
+}
+
+.logo img {
+    width: 40px; 
+    height: auto; 
+    margin-right: 8px; 
+}
+
+.left{
+    width: 25vw;
+    
+    border-radius: 10px;
+    margin: 16px 3px; 
+
+
+}
+.right{
+    width: 75vw;
+    margin: 16px 16px;
+    max-height: 100vh;
+    
+    border-radius: 10px;
+    
+    
+}
+
+.section-1{
+    padding: 20px;
+    border: 2px solid green;
+    border-radius: 10px;
+}
+
+.section-1 ul{
+    list-style: none;
+
+}
+
+.section-1 ul li{
+    display: flex;
+    gap: 15px;
+    width:19px ;
+    list-style: none;
+    padding-top: 18px;
+    font-weight: bold;
+    
+}
+.section-1 ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.section-1 ul li:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    font-size: 17px;
+    transition: 200ms;
+
+}
+
+.section-2{
+    min-height: 69vh;
+    
+    margin-top: 8px;
+    border-radius: 10px ;
+    
+}
+
+.section-2 ul{
+    padding: 20px;
+    list-style: none;
+}
+
+.section-2 li{
+    padding: 12px 18px;
+}
+
+.footer{
+    display: flex;
+    font-size: 12px;
+    gap: 13px;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 5px;
+    
+    
+    
+}
+
+.footer a{
+    color: rgb(243, 243, 243);
+}
+
+
+.finbtn {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.finbtn img {
+    width: 40px; 
+    height: auto; 
+    margin-right: 8px; 
+}
+
+.finbtn div {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.acabtn {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.acabtn img {
+    width: 40px; 
+    height: auto; 
+    margin-right: 8px; 
+}
+
+.acabtn div {
+    display: flex;
+    flex-direction: column;
+}
+
+.finbtn:hover, .acabtn:hover{
+    border-radius: 10px;
+    background-color: #4E4E4E;
+    transition: 300ms;
+
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    padding: 30px;
+}
+
+.uploadbox {
+    border: 2px solid #ccc; 
+    border-radius: 8px; 
+    padding: 20px;
+    text-align: center; 
+    max-width: 300px; 
+    margin: auto; 
+    background-color: #4E4E4E;
+}
+
+.upload-content {
+    margin-bottom: 20px; 
+}
+
+.choosebtn {
+    text-align: center; 
+}
+
+.choosebtn input[type="file"] {
+    display: none; 
+}
+
+.choosebtn label {
+    background-color: #00182f; 
+    color: white; 
+    padding: 10px 20px;
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+}
+
+.choosebtn label:hover {
+    background-color: #45a049;
+}
+
+.uploadbtn{
+    display: flex;
+}
+.uploadButton{
+
+    text-align: center; 
+
+}
+
+.uploadButton label {
+    background-color: #0084FF; 
+    color: white; 
+    padding: 10px 20px;
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+}
+
+
+
